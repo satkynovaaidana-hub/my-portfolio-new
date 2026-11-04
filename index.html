@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio</title>
+    <title>Personal Portfolio - Satkynova Aidana</title>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
@@ -13,13 +13,20 @@
     <header>
         <div class="container nav-bar">
             <a href="#" class="logo"><i class="fa-solid fa-p"></i> Personal</a>
+            
             <ul class="nav-links">
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Project</a></li>
                 <li><a href="#contact">Contact Me</a></li>
             </ul>
-            <a href="#" class="resume-btn">Resume <i class="fa-solid fa-download"></i></a>
+
+            <div class="header-right">
+                <a href="resume.pdf" class="resume-btn" download>Resume <i class="fa-solid fa-download"></i></a>
+                <div class="menu-toggle" id="mobile-menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
         </div>
     </header>
 
@@ -27,19 +34,17 @@
         <div class="hero-content">
             <h1>Hello I’am <span>Satkynova Aidana</span><br>
                 Junior <span class="highlight">Developer</span><br>
-                Based In <span>Kyrgyzstan
-                </span>
-        
-            </p>
+                Based In <span>Kyrgyzstan</span>
+            </h1>
+            <p>I'm Satkynova Aidana</p>
             <div class="social-icons">
-                <a href="#"><i class="fa-brands fa-github"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://wa.me/996708092009" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://instagram.com/satkynova_a" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/satkynovaaidana-hub" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/aidana-satkynova-2919ba3aa" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
             </div>
-        </div>
         <div class="hero-image">
-            <img src="index/Banner.png" alt="aidana">
+            <img src="girl banner 1.png" alt="Satkynova Aidana">
         </div>
     </section>
 
@@ -48,18 +53,20 @@
         <div class="skills-grid">
             <div class="skill-card dark"><i class="fa-brands fa-git-alt"></i><span>Git</span></div>
             <div class="skill-card dark"><i class="fa-brands fa-java"></i><span>Java</span></div>
-            <div class="skill-card dark"><i class="fa-brands fa-linux"></i><span>Linux</span></div>
+            <div class="skill-card"><i class="fa-brands fa-sass"></i><span>Sass/Scss</span></div>
             <div class="skill-card"><i class="fa-solid fa-js"></i><span>JavaScript</span></div>
             <div class="skill-card"><i class="fa-solid fa-book-bookmark"></i><span>Storybook</span></div>
             <div class="skill-card"><i class="fa-solid fa-cubes"></i><span>Nest.Js</span></div>
-            <div class="skill-card"><i class="fa-brands fa-sql"></i><span>SQL</span></div>
-            <div class="skill-card dark"><i class="fa-solid fa-html/css"></i><span>Html/Css</span></div>
+            <div class="skill-card dark"><i class="fa-brands fa-html5"></i><span>HTML</span></div>
+            <div class="skill-card dark"><i class="fa-solid fa-linux"></i><span>Linux</span></div>
             <div class="skill-card"><i class="fa-solid fa-bolt"></i><span>Socket.io</span></div>
             <div class="skill-card dark"><i class="fa-brands fa-python"></i><span>Python</span></div>
         </div>
     </section>
 
+    
     <div class="dark-wrapper">
+        
         
         <section class="experience-section container">
             <h2 class="dark-title">My <span>Experience</span></h2>
@@ -88,20 +95,16 @@
             </div>
         </section>
 
+        
         <section id="about" class="about-section container">
             <div class="about-img">
-                <img src="index/Group 1000015859.png" alt="About Me">
+                <img src="Group 1000015859.png" alt="About Me">
             </div>
             <div class="about-content">
                 <h2 class="dark-title">About <span>Me</span></h2>
-                <p>About Me
-
-                    I’m a motivated IT student at Ala-Too College, currently in my second year, studying Software for Computing and Automated Systems. I’m passionate about technology, programming, and creative ideas. I enjoy learning new skills, solving problems, and turning ideas into real projects.
-
-                    I’m a responsible, curious, and fast-learning person who is always ready to explore new opportunities. Besides IT, I’m interested in entrepreneurship, marketing, and business development. I enjoy working in a team, sharing ideas, and gaining practical experience.
-
-                    My goal is to improve my programming skills, gain experience in the IT industry, and create useful digital projects that combine creativity and technology. 
-                </p>
+                <p>I’m a motivated IT student at Ala-Too College, currently in my second year, studying Software for Computing and Automated Systems. I’m passionate about technology, programming, and creative ideas. I enjoy learning new skills, solving problems, and turning ideas into real projects.</p>
+                <p>I’m a responsible, curious, and fast-learning person who is always ready to explore new opportunities. Besides IT, I’m interested in entrepreneurship, marketing, and business development. I enjoy working in a team, sharing ideas, and gaining practical experience.</p>
+                <p>My goal is to improve my programming skills, gain experience in the IT industry, and create useful digital projects that combine creativity and technology.</p>
             </div>
         </section>
 
@@ -109,17 +112,17 @@
             <h2 class="dark-title">My <span>Projects</span></h2>
             
             <div class="project-item">
-                <div class="project-img"><img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600" alt="Project 1"></div>
+                <div class="project-img"><img src="image 771.png" alt="Project 1"></div>
                 <div class="project-info">
                     <span class="proj-num">01</span>
                     <h3>Beginner Programming Projects</h3>
                     <p>I’m an IT student learning Python, Java, HTML, and CSS. I enjoy solving programming problems, exploring new technologies, and building my skills through practical projects. My goal is to become a confident developer and create useful applications.</p>
-                    <a href="#"><i index= "index/image.png"></i></a>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
 
             <div class="project-item reverse">
-                <div class="project-img"><img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600" alt="Project 2"></div>
+                <div class="project-img"><img src="image 770.png" alt="Project 2"></div>
                 <div class="project-info">
                     <span class="proj-num">02</span>
                     <h3>Social Media & Brand Development</h3>
@@ -129,7 +132,7 @@
             </div>
 
             <div class="project-item">
-                <div class="project-img"><img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=600" alt="Project 3"></div>
+                <div class="project-img"><img src="image 770 (1).png" alt="Project 3"></div>
                 <div class="project-info">
                     <span class="proj-num">03</span>
                     <h3>Four. Collection — Online Clothing Store</h3>
@@ -139,27 +142,11 @@
             </div>
         </section>
 
+        
         <section class="testimonial-section container">
             <h2 class="dark-title">My <span>Testimonial</span></h2>
-            <div class="testimonial-grid">
-                <div class="test-card">
-                    <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100" alt="User">
-                    <p>I recently had to jump on 10+ different calls across eight different countries to find the right owner.</p>
-                    <h4>Evren Shah</h4>
-                    <span>Designer</span>
-                </div>
-                <div class="test-card active">
-                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100" alt="User">
-                    <p>I recently had to jump on 10+ different calls across eight different countries to find the right owner.</p>
-                    <h4>Flora Sheen</h4>
-                    <span>Designer</span>
-                </div>
-                <div class="test-card">
-                    <img src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?w=100" alt="User">
-                    <p>I recently had to jump on 10+ different calls across eight different countries to find the right owner.</p>
-                    <h4>Evren Shah</h4>
-                    <span>Designer</span>
-                </div>
+            <div class="testimonial-content">
+                <img src="Container.png" alt="Testimonial">
             </div>
         </section>
 
@@ -169,22 +156,23 @@
         <div class="container contact-container">
             <div class="contact-form">
                 <h2>Let’s <span>talk</span> for Something special</h2>
-                <form>
-                    <input type="text" placeholder="Your name">
-                    <input type="email" placeholder="Email">
-                    <input type="text" placeholder="Your website (If exists)">
-                    <textarea placeholder="How can I help?"></textarea>
+                <form id="contact-form-element">
+                    <input type="text" id="form-name" placeholder="Your name" required>
+                    <input type="email" id="form-email" placeholder="Email" required>
+                    <input type="text" id="form-website" placeholder="Your website (If exists)">
+                    <textarea id="form-message" placeholder="How can I help?" required></textarea>
                     <button type="submit">Go up</button>
                 </form>
+                <p id="form-success-msg" style="color: #4CAF50; margin-top: 15px; display: none; font-weight: 600;">Thank you! Your message has been sent successfully.</p>
             </div>
             <div class="contact-info">
                 <p>I seek to push the limits of creativity to create high-engaging, user-friendly, and memorable interactive experiences.</p>
                 <h3>satkynovaajdana@gmail.com</h3>
                 <h3>0708092009</h3>
                 <div class="social-icons footer-social">
-                    <a href="#"><i class="fa-brands fa-github"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
                     <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
                     <a href="#"><i class="fa-brands fa-linkedin"></i></a>
                 </div>
             </div>
@@ -192,10 +180,12 @@
         <div class="footer-bottom">
             <div class="container footer-bar">
                 <a href="#" class="logo" style="color: #fff;"><i class="fa-solid fa-p"></i> Personal</a>
-                <p>@ 2019-2023 Personal<br><span>Made In Figma</span></p>
+                <p>&copy; 2019-2023 Personal<br><span>Made In Figma</span></p>
             </div>
         </div>
     </footer>
 
+    
+    <script src="script.js"></script>
 </body>
 </html>
